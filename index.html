@@ -6,13 +6,14 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- <link rel="preload" href="./assets/fonts/DINPro-Bold.woff2" as="font" type="font/woff2" crossorigin> -->
    <link rel="stylesheet" href="./css/style.css">
-   <title>title</title>
+   <title>Кот-Матрос</title>
 </head>
 
 <body>
    <section class="header">
    <div class="container">
       <div class="header__wrap">
+         <img class="header__image" src="./images/bg-xl.png" alt="">
          <h1 class="header__title">
             КОРМЛЕНИЕ КОШЕК <br>
             ВЛАЖНЫМ КОРМОМ
@@ -187,52 +188,60 @@
 
 
    <section class="advise">
-   <div class="container">
+   <div class="advise__container container">
       <div class="advise__wrap">
-         <div class="advise__content">
-            <h2 class="advise__title">
-               Зачем кошке нужен <br> влажный корм
-            </h2>
+         <h2 class="advise__title h3">
+            Зачем кошке нужен <br> влажный корм
+         </h2>
 
-            <div class="advise__column">
-               <h3 class="advise__subtitle">
-                  Организм взрослой кошки <br>
-                  на 70% состоит из воды
-               </h3>
+         <div class="advise__column">
+            <h3 class="advise__subtitle h4">
+               Организм взрослой кошки <br>
+               на 70% состоит из воды
+            </h3>
 
-               <p class="advise__text">
-                  Вода является вторым по важности
-                  веществом после кислорода
-               </p>
-            </div>
+            <p class="advise__text text">
+               Вода является вторым по важности
+               веществом после кислорода
+            </p>
          </div>
       </div>
 
       <ul class="advise__list">
          <li class="advise__item">
             <article class="advise__card card">
-               <h4 class="card__title">
-                  Поддержание здоровья мочевыводящих путей*
+               <h4 class="card__title h4">
+                  Поддержание здоровья <br> мочевыводящих путей*
                </h4>
 
-               <p class="card__text">
+               <p class="card__text text">
                   Рацион, который состоит как минимум на 75% из влажного корма, способствует увеличению объема мочи у
                   животных и помогает снизить риск образования мочевых камней**
                </p>
+
+               <ol class="advise__list-captions advise__list-captions--d_none">
+                  <li class="advise__item-caption caption">
+                     * (Stevenson et al, 2003; Buckley et al, 2011)
+                  </li>
+
+                  <li class="advise__item-caption caption">
+                     **(Buckley et al, 2010)
+                  </li>
+               </ol>
             </article>
          </li>
 
          <li class="advise__item">
             <article class="advise__card card">
-               <h4 class="card__title">
+               <h4 class="card__title h4">
                   Поддержание <br>
                   оптимального веса
                </h4>
 
-               <p class="card__text">
+               <p class="card__text text">
                   Одна порция влажного корма содержит
-                  в 3-4 раза меньше калорий по
-                  сравнению с аналогичной порцией
+                  в&nbsp;3&nbsp;-&nbsp;4&nbsp;раза меньше калорий по
+                  сравнению с&nbsp;аналогичной порцией
                   сухого корма
                </p>
             </article>
@@ -240,12 +249,12 @@
 
          <li class="advise__item">
             <article class="advise__card card">
-               <h4 class="card__title">
-                  Соответствие потребностям молодых и стареющих животных
+               <h4 class="card__title h4">
+                  Соответствие потребностям <br> молодых и&nbsp;стареющих животных
                </h4>
 
-               <p class="card__text">
-                  Влажные корма легче захватывать и поедать животным с неполным набором зубов или повышенной
+               <p class="card__text text">
+                  Влажные корма легче захватывать и&nbsp;поедать&nbsp;животным с&nbsp;неполным набором зубов или повышенной
                   чувствительностью десен.
                </p>
             </article>
@@ -253,24 +262,24 @@
 
          <li class="advise__item">
             <article class="advise__card card">
-               <h4 class="card__title">
+               <h4 class="card__title h4">
                   Увеличение вкусовой <br> привлекательности
                </h4>
 
-               <p class="card__text">
+               <p class="card__text text">
                   Сочетание сухого и влажного кормов увеличивает привлекательность рациона
-                  за счет разнообразия текстур
+                  за&nbsp;счет&nbsp;разнообразия текстур
                </p>
             </article>
          </li>
       </ul>
 
-      <ol class="advise__list-captions">
-         <li class="advise__item-caption">
+      <ol class="advise__list-captions advise__list-captions--d_block">
+         <li class="advise__item-caption caption">
             * (Stevenson et al, 2003; Buckley et al, 2011)
          </li>
 
-         <li class="advise__item-caption">
+         <li class="advise__item-caption caption">
             **(Buckley et al, 2010)
          </li>
       </ol>
@@ -280,44 +289,128 @@
    <section class="rules">
    <div class="container">
       <div class="rules__content">
-         <h2 class="rules__title">
+         <h2 class="rules__title h3">
             Правила кормления <span>влажным кормом</span>
          </h2>
 
          <ul class="rules__list">
             <li class="rules__item">
-               <img src="#" alt="/" class="rules__image"/>
+               <img class="rules__image" src="./images/icons/meal.svg" alt="/"/>
 
-               <p class="rules__text">
-                  Если вы используете влажный корм в качестве топинга, то такая смесь хранится не более 1 часа.
+               <p class="rules__text text">
+                  Если вы используете влажный корм в качестве топинга, то такая <span>смесь хранится не&nbsp;более&nbsp;1&nbsp;часа.</span>
                   Утилизируйте несъеденные остатки корма.
                </p>
             </li>
 
             <li class="rules__item">
-               <img src="#" alt="/" class="rules__image"/>
+               <img class="rules__image" src="./images/icons/cat-weight.svg" alt="/"/>
 
-               <p class="rules__text">
-                  Если вы используете влажный корм отдельно от сухого, в качестве отдельного приема пищи, то
-                  расчитывайте порцию, исходя из индивидуальных особенностей кошки. Несъеденные остатки нужно
-                  утилизировать через 1 час.
+               <p class="rules__text text">
+                  Если вы используете влажный корм отдельно от&nbsp;сухого, в&nbsp;качестве отдельного приема пищи,
+                  то <span>расчитывайте порцию, исходя из&nbsp;индивидуальных особенностей кошки.</span> Несъеденные остатки нужно
+                  утилизировать через&nbsp;1&nbsp;час.
                </p>
             </li>
 
             <li class="rules__item">
-               <img src="#" alt="/" class="rules__image"/>
+               <img class="rules__image" src="./images/icons/drops1.svg" alt="/"/>
 
-               <p class="rules__text">
-                  Регулярно мойте миски для корма для обеспечения пищевой безопасности и гигиены.
+               <p class="rules__text text">
+                  Регулярно <span>мойте миски для корма</span> для обеспечения пищевой безопасности и&nbsp;гигиены.
                </p>
             </li>
 
             <li class="rules__item">
-               <img src="#" alt="/" class="rules__image"/>
+               <img class="rules__image" src="./images/icons/meal-1.svg" alt="/"/>
 
-               <p class="rules__text">
-                  Подбирайте сухой и влажный рационы одного производителя, для достижения максимальной пользы от
+               <p class="rules__text text">
+                  Подбирайте сухой и влажный <span>рационы одного производителя,</span> для достижения максимальной пользы от
                   смешанного питания.
+               </p>
+            </li>
+         </ul>
+      </div>
+   </div>
+</section>
+
+   <section class="diet">
+   <div class="diet__container container">
+      <div class="diet__wrap">
+         <div class="diet__content">
+            <h2 class="diet__title h3">
+               Правила&nbsp;введения сухого <br>
+               и&nbsp;влажного корма в рацион
+            </h2>
+
+            <p class="diet__text text">
+               Если кошка никогда не употребляла влажный корм, то важно вводить новый рацион постепенно, начиная c ¼
+               (25%) пауча в первые дни. Далее используйте рекомендацию введения влажного рациона по схеме справа
+            </p>
+
+            <div class="diet__wrap-image-text">
+               <img class="diet__icon" src="./images/icons/bulb.svg" alt="bulb">
+
+               <p class="diet__subtext text-3">
+                  Так вы снизите вероятность возникновения растройства пищеварительной системы.
+               </p>
+            </div>
+         </div>
+
+         <ul class="diet__list">
+            <li class="diet__item">
+               <div class="diet__circle descriptor-1">
+                  день <br>
+                  1-2
+               </div>
+
+               <img class="diet__icon" src="./images/icons/25.svg" alt="25%">
+
+               <p class="diet__percent numeric-2">
+                  25%
+                  <span class="descriptor-2">влажного корма</span>
+               </p>
+            </li>
+
+            <li class="diet__item">
+               <div class="diet__circle descriptor-1">
+                  день <br>
+                  3-4
+               </div>
+
+               <img class="diet__icon" src="./images/icons/50.svg" alt="50%">
+
+               <p class="diet__percent numeric-2">
+                  50%
+                  <span class="descriptor-2">влажного корма</span>
+               </p>
+            </li>
+
+            <li class="diet__item">
+               <div class="diet__circle descriptor-1">
+                  день <br>
+                  5-6
+               </div>
+
+               <img class="diet__icon" src="./images/icons/75.svg" alt="75%">
+
+               <p class="diet__percent numeric-2">
+                  75%
+                  <span class="descriptor-2">влажного корма</span>
+               </p>
+            </li>
+
+            <li class="diet__item">
+               <div class="diet__circle descriptor-1">
+                  день <br>
+                  7
+               </div>
+
+               <img class="diet__icon" src="./images/icons/100.svg" alt="100%">
+
+               <p class="diet__percent numeric-2">
+                  100%
+                  <span class="descriptor-2">влажного корма</span>
                </p>
             </li>
          </ul>
@@ -328,7 +421,8 @@
    <section class="footer">
    <div class="container">
       <div class="footer__wrap">
-         <h1 class="footer__title">АССОРТИМЕНТ ВЛАЖНЫХ КОРМОВ</h1>
+         <img class="footer__image" src="./images/bg-footer-xl.png" alt="cat">
+         <h1 class="footer__title">АССОРТИМЕНТ <br> ВЛАЖНЫХ КОРМОВ</h1>
       </div>
    </div>
 </section>
