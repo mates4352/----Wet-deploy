@@ -24,164 +24,198 @@
 
 
    <section class="slider-info">
-   <div class="container">
+   <div class="slider-info__container container">
       <div class="slider-info__wrap">
-         <img class="slider-info__image" src="#" alt="/">
+         <img class="slider-info__image" src="./images/cat-slider-xl-1.png" alt="cat">
 
-         <h2 class="slider-info__title">
+         <h2 class="slider-info__title slider-info__title--d_none h3">
             Пройдите короткий опрос и
             <span>узнайте, достаточное ли количество воды употребляет ваша кошка</span>
          </h2>
 
-         <article class="slider-info__card card-1">
-            <h3 class="card-1__title">
+         <div class="slider-info__content-mobile">
+            <h2 class="slider-info__title h3">
+               Пройдите короткий опрос и
+               <span>узнайте, достаточное ли количество воды употребляет ваша кошка</span>
+            </h2>
+
+            <h3 class="slider-card__title h4">
                При наличии хотя бы одного ответа «Да»
             </h3>
 
-            <p class="card-1__text">
+            <p class="slider-card__text text">
                Рекомендуем включить влажный рацион в питание вашего питомца на ежедневной основе.
             </p>
-         </article>
+         </div>
 
-         <article class="slider-info__card card">
-            <div class="card__number">
-               01
-            </div>
+         <div class="swiper">
+            <ul class="swiper-wrapper">
+               <li class="swiper-slide">
+                  <article class="slider-info__card slider-card slider-card--1">
+                     <h3 class="slider-card__title h4">
+                        При наличии хотя бы одного ответа «Да»
+                     </h3>
 
-            <h3 class="card__title">
-               Была ли у кошки мочекаменная болезнь?
-            </h3>
-
-            <ul class="card__list">
-               <li class="card__item">
-                  <button class="card__button">
-                     да
-                  </button>
+                     <p class="slider-card__text text">
+                        Рекомендуем включить влажный рацион в питание вашего питомца на ежедневной основе.
+                     </p>
+                  </article>
                </li>
 
-               <li class="card__item">
-                  <button class="card__button">
-                     нет
-                  </button>
+               <li class="swiper-slide">
+                  <article class="slider-info__card slider-card">
+                     <div class="slider-card__number numeric">
+                        01
+                     </div>
+
+                     <h3 class="slider-card__title h4">
+                        Была ли у кошки мочекаменная болезнь?
+                     </h3>
+
+                     <ul class="slider-card__list">
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_green descriptor-1">
+                              да
+                           </button>
+                        </li>
+
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_red descriptor-1">
+                              нет
+                           </button>
+                        </li>
+                     </ul>
+
+                     <div class="slider-card__show">
+                        <h4 class="slider-card__subtitle h5">
+                           Была ли у кошки мочекаменная болезнь?
+                        </h4>
+
+                        <p class="slider-card__text text">
+                           Чем больше влаги получает животное, тем ниже риск развития заболевания и рецидива заболевания.
+                        </p>
+                     </div>
+                  </article>
+               </li>
+
+               <li class="swiper-slide">
+                  <article class="slider-info__card slider-card">
+                     <div class="slider-card__number numeric">
+                        02
+                     </div>
+
+                     <h3 class="slider-card__title h4">
+                        Есть ли у кошки чрезмерная линька?
+                     </h3>
+
+                     <ul class="slider-card__list">
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_green descriptor-1">
+                              да
+                           </button>
+                        </li>
+
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_red descriptor-1">
+                              нет
+                           </button>
+                        </li>
+                     </ul>
+
+                     <div class="slider-card__show">
+                        <h4 class="slider-card__subtitle h5">
+                           Есть ли у кошки чрезмерная линька?
+                        </h4>
+
+                        <p class="slider-card__text text">
+                           При недостаточном потреблении воды кожа становится более сухой и менее эластичностой - это становится
+                           причиной чрезмерной линьки.
+                        </p>
+                     </div>
+                  </article>
+               </li>
+
+               <li class="swiper-slide">
+                  <article class="slider-info__card slider-card">
+                     <div class="slider-card__number numeric">
+                        03
+                     </div>
+
+                     <h3 class="slider-card__title h4">
+                        Есть ли у кошки проблемы с лишним весом?
+                     </h3>
+
+                     <ul class="slider-card__list">
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_green descriptor-1">
+                              да
+                           </button>
+                        </li>
+
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_red descriptor-1">
+                              нет
+                           </button>
+                        </li>
+                     </ul>
+
+                     <div class="slider-card__show">
+                        <h4 class="slider-card__subtitle h5">
+                           Есть ли у кошки проблемы с лишним весом?
+                        </h4>
+
+                        <p class="slider-card__text text">
+                           Одна порция влажного корма содержит в 3-4 раза меньше калорий по сравнению с аналогичной порцией
+                           сухого корма. Сочетая сухой и влажный рационы, вы уменьшаете суточное потребление калорий и
+                           поддерживаете оптимальный вес.
+                        </p>
+                     </div>
+                  </article>
+               </li>
+
+               <li class="swiper-slide">
+                  <article class="slider-info__card slider-card">
+                     <div class="slider-card__number numeric">
+                        04
+                     </div>
+
+                     <h3 class="slider-card__title h4">
+                        Есть ли у кошки проблемы с ротовой полостью?
+                     </h3>
+
+                     <ul class="slider-card__list">
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_green descriptor-1">
+                              да
+                           </button>
+                        </li>
+
+                        <li class="slider-card__item">
+                           <button class="slider-card__button slider-card__button--bg_red descriptor-1">
+                              нет
+                           </button>
+                        </li>
+                     </ul>
+
+                     <div class="slider-card__show">
+                        <h4 class="slider-card__subtitle h5">
+                           Есть ли у кошки проблемы с ротовой полостью?
+                        </h4>
+
+                        <p class="slider-card__text text">
+                           Чувствительная ротовая полость или неполный набор зубов являются причиной недостаточного потребления
+                           воды и питательных веществ. Потребление влажных кормов крайне важно для таких животных.
+                        </p>
+                     </div>
+                  </article>
                </li>
             </ul>
 
-            <div class="card__show">
-               <h4 class="card__subtitle">
-                  Была ли у кошки мочекаменная болезнь?
-               </h4>
-
-               <p class="card__text">
-                  Чем больше влаги получает животное, тем ниже риск развития заболевания и рецидива заболевания.
-               </p>
+            <div class="swiper-button-wrap">
+               <button class="swiper-button swiper-button-prev" type="button"></button>
+               <button class="swiper-button swiper-button-next" type="button"></button>
             </div>
-         </article>
-
-         <article class="slider-info__card card">
-            <div class="card__number">
-               02
-            </div>
-
-            <h3 class="card__title">
-               Есть ли у кошки чрезмерная линька?
-            </h3>
-
-            <ul class="card__list">
-               <li class="card__item">
-                  <button class="card__button">
-                     да
-                  </button>
-               </li>
-
-               <li class="card__item">
-                  <button class="card__button">
-                     нет
-                  </button>
-               </li>
-            </ul>
-
-            <div class="card__show">
-               <h4 class="card__subtitle">
-                  Есть ли у кошки чрезмерная линька?
-               </h4>
-
-               <p class="card__text">
-                  При недостаточном потреблении воды кожа становится более сухой и менее эластичностой - это становится
-                  причиной чрезмерной линьки.
-               </p>
-            </div>
-         </article>
-
-         <article class="slider-info__card card">
-            <div class="card__number">
-               03
-            </div>
-
-            <h3 class="card__title">
-               Есть ли у кошки проблемы с лишним весом?
-            </h3>
-
-            <ul class="card__list">
-               <li class="card__item">
-                  <button class="card__button">
-                     да
-                  </button>
-               </li>
-
-               <li class="card__item">
-                  <button class="card__button">
-                     нет
-                  </button>
-               </li>
-            </ul>
-
-            <div class="card__show">
-               <h4 class="card__subtitle">
-                  Есть ли у кошки проблемы с лишним весом?
-               </h4>
-
-               <p class="card__text">
-                  Одна порция влажного корма содержит в 3-4 раза меньше калорий по сравнению с аналогичной порцией
-                  сухого корма. Сочетая сухой и влажный рационы, вы уменьшаете суточное потребление калорий и
-                  поддерживаете оптимальный вес.
-               </p>
-            </div>
-         </article>
-
-         <article class="slider-info__card card">
-            <div class="card__number">
-               04
-            </div>
-
-            <h3 class="card__title">
-               Есть ли у кошки проблемы с ротовой полостью?
-            </h3>
-
-            <ul class="card__list">
-               <li class="card__item">
-                  <button class="card__button">
-                     да
-                  </button>
-               </li>
-
-               <li class="card__item">
-                  <button class="card__button">
-                     нет
-                  </button>
-               </li>
-            </ul>
-
-            <div class="card__show">
-               <h4 class="card__subtitle">
-                  Есть ли у кошки проблемы с ротовой полостью?
-               </h4>
-
-               <p class="card__text">
-                  Чувствительная ротовая полость или неполный набор зубов являются причиной недостаточного потребления
-                  воды и питательных веществ. Потребление влажных кормов крайне важно для таких животных.
-               </p>
-            </div>
-         </article>
+         </div>
       </div>
    </div>
 </section>
