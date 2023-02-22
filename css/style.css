@@ -386,7 +386,7 @@ img {
   --text: 18px/1.2 Gilroy-Regular;
   --text-2: 18px/1.2 Gilroy-Semibold;
   --text-3: 16px/1.3 Gilroy-Regular;
-  --caption: 14px/1.2 Gilroy-Regular-Italic;
+  --caption: 14px/1.2 Gilroy-Regular;
   --descriptor-1: 16px/1.1 Gilroy-Medium;
   --descriptor-2: 14px/1.1 Gilroy-Medium;
   --Numeric: 80px/1.05 Caveat-Regular;
@@ -423,7 +423,8 @@ img {
   font: var(--descriptor-2)
 }
 .caption {
-  font: var(--caption)
+  font: var(--caption);
+  font-style: italic
 }
 .numeric {
   font: var(--Numeric)
@@ -1081,7 +1082,7 @@ img {
     --h4: 18px/1.1 Gilroy-Bold;
     --h5: 16px/1.2 Gilroy-Semibold;
     --text: 16px/1.2 Gilroy-Regular;
-    --caption: 12px/1.2 Gilroy-Regular-Italic;
+    --caption: 12px/1.2 Gilroy-Regular;
     --Numeric: 50px/1.05 Caveat-Regular
   }
   .swiper {
